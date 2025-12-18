@@ -7,3 +7,5 @@ curl -I https://www.google.com | grep "HTTP/"
 
 
 
+echo 'Checking for open ports...'
+ss -tuln
